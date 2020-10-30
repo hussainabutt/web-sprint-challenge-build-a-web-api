@@ -1,7 +1,15 @@
+const server = require('./server.js');
+const port = process.env.PORT || 4000;
+server.listen(port, () => {
+    console.log(`\n*Server is running on http://localhost:${port}`)
+})
+
 /*
 play this: https://www.youtube.com/watch?v=d-diB65scQU
 
+
 Sing along:
+
 
 here's a little code I wrote, please read the README word for word, don't worry, you got this
 in every task there may be trouble, but if you worry you make it double, don't worry, you got this
